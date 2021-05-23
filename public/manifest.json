@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Book Searcher",
+  "name": "Brekalo's Book Searcher",
   "icons": [
     {
       "src": "favicon.ico",

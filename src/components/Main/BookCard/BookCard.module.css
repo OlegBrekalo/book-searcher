@@ -1,0 +1,54 @@
+.bookCard {
+    position: relative;
+    height: 115px;
+    box-sizing: border-box;
+    background-color: rgba(167, 184, 178, .15);
+    padding: 12px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-areas: 'cover title' 'cover author';
+    grid-template-columns: 20% auto;
+    column-gap: 6px;
+    cursor: pointer;
+}
+
+.cover {
+    grid-area: cover;
+    margin: auto 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    grid-area: title;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.author {
+    grid-area: author;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.title, .author {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.save-icon {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-image: url("../../../img/save-icon.png");
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}

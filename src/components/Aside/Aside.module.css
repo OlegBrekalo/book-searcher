@@ -1,0 +1,90 @@
+.content {
+    grid-area: aside;
+    border-right: 2px solid #F2B8B1;
+    padding-top: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 18px;
+}
+
+.button {
+    padding: 16px 16px;
+    border-radius: 8px;
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.15;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.button.brow {
+    color: #AD847F;
+}
+
+.button:hover {
+    background-color: rgba(173, 132, 127, .2);
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+
+.icon.search {
+    background-image: url("../../img/search-icon.svg");
+}
+
+.icon.search.brow {
+    background-image: url("../../img/search-icon-brow.svg");
+}
+
+.icon.bookmark {
+    background-image: url("../../img/bookmark-icon.svg");
+}
+
+.icon.bookmark.brow {
+    background-image: url("../../img/bookmark-icon-brow.svg");
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        display: grid;
+        grid-template-areas: 'logo search' 'logo bookmark';
+        border-right: none;
+        border-bottom: 2px solid #F2B8B1;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .logo {
+        grid-area: logo;
+    }
+
+    .button.search {
+        grid-area: search;
+    }
+
+    .button.bookmark {
+        grid-area: bookmark;
+    }
+    .button{
+        justify-self: right;
+        text-align: right;
+        width: 90%;
+    }
+}

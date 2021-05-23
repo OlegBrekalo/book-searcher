@@ -1,0 +1,9 @@
+.title {
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: normal;
+    color: rgba(0, 0, 0, .5);
+    margin-top: 9px;
+    margin-left: 6px;
+    margin-bottom: 21px;
+}

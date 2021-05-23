@@ -1,0 +1,28 @@
+.content {
+    grid-area: main;
+    padding-top: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 18px;
+}
+
+.cards-section {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards-section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cards-section {
+        grid-template-columns: 1fr;
+    }
+}
