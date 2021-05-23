@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/book-searcher/static/css/main.3a09503f.chunk.css",
+    "main.js": "/book-searcher/static/js/main.7cbc851a.chunk.js",
+    "main.js.map": "/book-searcher/static/js/main.7cbc851a.chunk.js.map",
+    "runtime-main.js": "/book-searcher/static/js/runtime-main.8e7b8899.js",
+    "runtime-main.js.map": "/book-searcher/static/js/runtime-main.8e7b8899.js.map",
+    "static/js/2.1f5760eb.chunk.js": "/book-searcher/static/js/2.1f5760eb.chunk.js",
+    "static/js/2.1f5760eb.chunk.js.map": "/book-searcher/static/js/2.1f5760eb.chunk.js.map",
+    "index.html": "/book-searcher/index.html",
+    "static/css/main.3a09503f.chunk.css.map": "/book-searcher/static/css/main.3a09503f.chunk.css.map",
+    "static/js/2.1f5760eb.chunk.js.LICENSE.txt": "/book-searcher/static/js/2.1f5760eb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/book-searcher/static/media/Inter-Regular.fc49d131.woff",
+    "static/media/Aside.module.css": "/book-searcher/static/media/search-icon.f4fb8a6f.svg",
+    "static/media/DetailPopup.module.css": "/book-searcher/static/media/close-icon.2a6c81b8.svg",
+    "static/media/logo brow.ceb24974.svg": "/book-searcher/static/media/logo brow.ceb24974.svg",
+    "static/media/no-cover.30b5a816.png": "/book-searcher/static/media/no-cover.30b5a816.png",
+    "static/media/Search.module.css": "/book-searcher/static/media/search-icon-brow.0a965ce0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e7b8899.js",
+    "static/js/2.1f5760eb.chunk.js",
+    "static/css/main.3a09503f.chunk.css",
+    "static/js/main.7cbc851a.chunk.js"
+  ]
+}
