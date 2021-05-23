@@ -6,7 +6,7 @@ function getResponseData(res) {
 }
 
 class Api {
-  constructor(url = 'http://openlibrary.org/search.json') {
+  constructor(url = 'https://openlibrary.org/search.json') {
     this.url = url;
   }
 
