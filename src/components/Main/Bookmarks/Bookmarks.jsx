@@ -18,7 +18,9 @@ function Bookmarks() {
 
   return (
     <section className={mainStyles.content}>
-      <h2 className={styles.title}>Ваши закладки</h2>
+      <h2 className={styles.title}>
+        {bookmarks.length === 0 ? 'У вас пока нет закладок' : 'Ваши закладки'}
+      </h2>
       <div className={mainStyles['cards-section']}>
         {bookmarks &&
           bookmarks.map((el, index) => (

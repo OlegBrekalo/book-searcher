@@ -35,8 +35,8 @@ function Search() {
 
     setTimeout(() => {
       if (
-        searchInput === searchInputRef.current.value &&
-        searchInputRef.current
+        searchInputRef.current &&
+        searchInput === searchInputRef.current.value
       ) {
         if (searchInput) {
           API.getBooksByTitle(searchInput)

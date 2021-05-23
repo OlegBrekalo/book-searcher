@@ -16,10 +16,8 @@ function BookCard({
     <div
       role="presentation"
       className={styles.bookCard}
-      onClick={(evt) => {
-        if (evt.target === evt.currentTarget) {
-          setSelectedIndexDetailBook(searchIndex);
-        }
+      onClick={() => {
+        setSelectedIndexDetailBook(searchIndex);
       }}
     >
       <img
