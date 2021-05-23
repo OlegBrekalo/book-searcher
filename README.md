@@ -1,7 +1,7 @@
 # book-searcher
 
 ## URL: https://olegbrekalo.github.io/book-searcher/
-###Олег Брекало для Auto.ru
+### Олег Брекало для Auto.ru
 
 ## Условие задачи
 
